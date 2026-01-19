@@ -1201,10 +1201,12 @@ justify-content: center;
 
 @media (max-width: 768px) {
   .packages-section-1-content h3 {
+    cursor: default;
     font-size: 48px;
   }
 
   .packages-section-1-content p {
+    cursor: default;
     font-size: 16px;
     font-weight: 200;
   }
@@ -1225,6 +1227,7 @@ justify-content: center;
 }
 
 .packages-content-title h3 {
+  cursor: default;
   font-family: Inter, sans-serif;
   font-weight: 600;
   font-size: 36px;
@@ -1233,6 +1236,7 @@ justify-content: center;
 }
 
 .packages-content-title p {
+  cursor: default;
   font-family: Inter, sans-serif;
   font-size: 18px;
   color: #626262;
@@ -1276,17 +1280,20 @@ justify-content: center;
 }
 
 .card-title h4 {
+  cursor: default;
   font-size: 22px;
   color: #041562;
   margin-bottom: 8px;
 }
 
 .card-title p {
+  cursor: default;
   font-size: 14px;
   color: #696969;
 }
 
 .card-title .price {
+  cursor: default;
   font-size: 18px;
   font-weight: 600;
   color: #FF5403;
