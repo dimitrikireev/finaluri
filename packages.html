@@ -4,18 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Project</title>
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header class="header">
   <div class="container">
-    <div class="logo">Travel Buddy</div>
+    <div class="logo">
+  <svg
+    class="logo-svg"
+    width="44"
+    height="47"
+    viewBox="0 0 44 47"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    aria-hidden="true"
+  >
+    <path
+      d="M0 19.5958C0 7.69495 8.89762 0 18.7318 0C28.0978 0 36.6207 6.97803 37.3936 17.923H42.8258C43.8793 17.923 44.3945 19.2135 43.6452 19.9543L35.9419 27.8165C35.4736 28.2945 34.7476 28.2945 34.2793 27.8165L26.576 19.9543C26.4154 19.7873 26.3064 19.5759 26.2627 19.3463C26.2187 19.1168 26.2419 18.8791 26.3293 18.6628C26.4164 18.4466 26.5638 18.2612 26.7536 18.1297C26.943 17.9981 27.166 17.9263 27.3953 17.923H32.6871C31.9614 10.1325 26.0608 4.77947 18.7318 4.77947C10.8881 4.77947 4.68296 10.9211 4.68296 19.5958C4.68296 25.1878 9.24902 32.596 18.7318 41.438C20.2304 40.0279 21.612 38.6659 22.8764 37.3514C22.4643 36.5219 22.2479 35.6053 22.2441 34.6749C22.2441 33.0906 22.8608 31.571 23.9587 30.4506C25.0563 29.3302 26.5451 28.7007 28.0978 28.7007C29.6504 28.7007 31.1393 29.3302 32.2368 30.4506C33.3347 31.571 33.9515 33.0906 33.9515 34.6749C33.9508 35.5993 33.7392 36.5106 33.3336 37.3365C32.9281 38.1628 32.3398 38.8815 31.6152 39.4356C30.8905 39.9897 30.0493 40.3642 29.1585 40.5292C28.2677 40.6942 27.3513 40.6453 26.4823 40.3865C24.656 42.3461 22.5719 44.3535 20.2772 46.4087C19.3875 47.1971 18.053 47.1971 17.1632 46.4087C5.7368 36.1328 0 27.1952 0 19.5958Z"
+      fill="#DA1212"
+    />
+  </svg>
+
+  <span class="logo-text">Travel Buddy</span>
+</div>
 
         <nav class="nav" id="nav">
         <ul class="nav-list">
             <li><a href="/index.html">Home</a></li>
-            <li><a href="/aboutus.html">About</a></li>
             <li><a href="/packages.html">Packages</a></li>
             <li><a href="/places.html">Places</a></li>
             <li><a href="/contact.html">Contact</a></li>
@@ -32,22 +48,106 @@
     </button>
   </div>
 </header>
+<main>
+   <section class="packages-section-1">
+  <div class="packages-section-1-content">
+    <h3>Packages</h3>
+    <p>The best packages for you</p>
+  </div>
+</section>
+
+<section class="packages-content-2">
+  <div class="packages-content-title">
+    <h3>Top Hotel & Restaurants</h3>
+    <p>Top Hotel & Restaurants in Indonesia</p>
+  </div>
+
+  <div class="packages-cards">
+    <!-- CARD 1 -->
+    <div class="package-card">
+      <img src="img/img-card-hotel-01.png" alt="Hotel in Bali">
+      <div class="card-title">
+        <h4>Hotel & Restaurant 1</h4>
+        <p class="rating">4.5 / 5</p>
+        <p class="location">Location: Bali, Indonesia</p>
+        <p class="price">$200.00 / night</p>
+      </div>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="package-card">
+      <img src="img/img-card-hotel-02.png" alt="Hotel in Bali">
+      <div class="card-title">
+        <h4>Hotel & Restaurant 2</h4>
+        <p class="rating">4.7 / 5</p>
+        <p class="location">Location: Bali, Indonesia</p>
+        <p class="price">$180.00 / night</p>
+      </div>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="package-card">
+      <img src="img/img-card-hotel-03.png" alt="Hotel in Bali">
+      <div class="card-title">
+        <h4>Hotel & Restaurant 3</h4>
+        <p class="rating">4.6 / 5</p>
+        <p class="location">Location: Bali, Indonesia</p>
+        <p class="price">$220.00 / night</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <div class="packages-section-3">
+  <div class="event">
+    <div class="event-arrows">
+        
+        <button class="slide-arrow left">&#10094;</button>
+        <button class="slide-arrow right">&#10095;</button>
+    </div>
+
+    <div class="event-plan">
+      <div class="title">
+        <p class="event-subtitle">Upcoming Event</p>
+        <h3 class="event-title">Bali - Indonesia</h3>
+      </div>
+
+      <p class="event-description">
+        Waters make fish every without firmament saw had. Morning air subdue. Our, air very one. Whales grass is fish whales winged.
+      </p>
+
+      <p class="event-date">Date: 12-15 December 2022</p>
+      <p class="event-cost">Cost: Start from $1200.00</p>
+      <p class="event-organizer">Organizer: TravelBuddy</p>
+      <p class="event-rating">Rating: 4.5 / 5</p>
+
+      <button class="event-btn">Plan Details</button>
+    </div>
+
+    <img src="img/event_bg_1.png" alt="event image" class="event-bg">
+  </div>
+  </div>
+    
+    <div class="packages section-4">
+      
+    </div>
+</main>
 <footer>
 
   <div class="footer-block">
     <div class="logo-footer">
-      <img src="/img/Vector1.svg" alt="Travel Buddy Logo" />
+      <img src="img/Vector1.svg" alt="Travel Buddy Logo" />
       <span>Travel Buddy</span>
     </div>
     <div class="discover">
       <h3>DISCOVER DESTINATION</h3>
       <ul>
-        <li><a href="#">Bali</a></li>
-        <li><a href="#">Karimun Jawa</a></li>
-        <li><a href="#">Jepara</a></li>
-        <li><a href="#">Lombok</a></li>
-        <li><a href="#">Yogykara</a></li>
-        <li><a href="#">Flores</a></li>
+        <li><a href="/places.html#Bali">Bali</a></li>
+        <li><a href="/places.html#Karimun Jawa">Karimun Jawa</a></li>
+        <li><a href="/places.html#Jepara">Jepara</a></li>
+        <li><a href="/places.html#Lombok">Lombok</a></li>
+        <li><a href="/places.html#Yogykara">Yogykara</a></li>
+        <li><a href="/places.html#Flores">Flores</a></li>
       </ul>
     </div>
 
@@ -59,9 +159,9 @@
 
       <div class="social">
         <h3>Social Media</h3>
-        <a href="#"><img src="/img/Instagram.png" alt="Instagram" /></a>
-        <a href="#"><img src="/img/Facebook.png" alt="Facebook" /></a>
-        <a href="#"><img src="/img/Twitter Squared.png" alt="Twitter" /></a>
+        <a href="www.instagram.com"><img src="img/Instagram.png" alt="Instagram" /></a>
+        <a href="www.facebook.com"><img src="img/Facebook.png" alt="Facebook" /></a>
+        <a href="www.twitter.com"><img src="img/Twitter Squared.png" alt="Twitter" /></a>
       </div>
     </div>
 

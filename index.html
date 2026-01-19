@@ -4,21 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Project</title>
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header class="header">
   <div class="container">
     <div class="logo">
-        <img src="/img/Vector2.svg" alt="">
-        <span>Travel Buddy</span>
-    </div>
+  <svg
+    class="logo-svg"
+    width="44"
+    height="47"
+    viewBox="0 0 44 47"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    aria-hidden="true"
+  >
+    <path
+      d="M0 19.5958C0 7.69495 8.89762 0 18.7318 0C28.0978 0 36.6207 6.97803 37.3936 17.923H42.8258C43.8793 17.923 44.3945 19.2135 43.6452 19.9543L35.9419 27.8165C35.4736 28.2945 34.7476 28.2945 34.2793 27.8165L26.576 19.9543C26.4154 19.7873 26.3064 19.5759 26.2627 19.3463C26.2187 19.1168 26.2419 18.8791 26.3293 18.6628C26.4164 18.4466 26.5638 18.2612 26.7536 18.1297C26.943 17.9981 27.166 17.9263 27.3953 17.923H32.6871C31.9614 10.1325 26.0608 4.77947 18.7318 4.77947C10.8881 4.77947 4.68296 10.9211 4.68296 19.5958C4.68296 25.1878 9.24902 32.596 18.7318 41.438C20.2304 40.0279 21.612 38.6659 22.8764 37.3514C22.4643 36.5219 22.2479 35.6053 22.2441 34.6749C22.2441 33.0906 22.8608 31.571 23.9587 30.4506C25.0563 29.3302 26.5451 28.7007 28.0978 28.7007C29.6504 28.7007 31.1393 29.3302 32.2368 30.4506C33.3347 31.571 33.9515 33.0906 33.9515 34.6749C33.9508 35.5993 33.7392 36.5106 33.3336 37.3365C32.9281 38.1628 32.3398 38.8815 31.6152 39.4356C30.8905 39.9897 30.0493 40.3642 29.1585 40.5292C28.2677 40.6942 27.3513 40.6453 26.4823 40.3865C24.656 42.3461 22.5719 44.3535 20.2772 46.4087C19.3875 47.1971 18.053 47.1971 17.1632 46.4087C5.7368 36.1328 0 27.1952 0 19.5958Z"
+      fill="#DA1212"
+    />
+  </svg>
+
+  <span class="logo-text">Travel Buddy</span>
+</div>
+
+
 
         <nav class="nav" id="nav">
         <ul class="nav-list">
             <li><a href="/index.html">Home</a></li>
-            <li><a href="/aboutus.html">About</a></li>
             <li><a href="/packages.html">Packages</a></li>
             <li><a href="/places.html">Places</a></li>
             <li><a href="/contact.html">Contact</a></li>
@@ -35,22 +50,210 @@
     </button>
   </div>
 </header>
+<main>
+    <div class="section-1">
+        <img src="img/banner_bg_1.png" alt="background" class="section-1-bg">
+        <div class="section-1-content">
+            <h3>Travel Buddy</h3>
+            <p>Let’s start your journey with us, your dream will come true</p>
+        <button class="section-1-btn">Book Now</button>
+        </div>
+    </div>
+    <div class="booking-bar">
+
+  <div class="booking-bar-nav">
+    <ul>
+      <li><a href="#">Hotel</a></li>
+      <li><a href="#">Ticket</a></li>
+      <li><a href="#">Place</a></li>
+    </ul>
+  </div>
+
+  <div class="booking-bar-fields">
+
+    <div class="field">
+      <label>Location</label>
+      <select>
+        <option>Bali</option>
+    <option>Jakarta</option>
+    <option>Lombok</option>
+    <option>Yogyakarta</option>
+    <option>Surabaya</option>
+    <option>Bandung</option>
+    <option>Medan</option>
+    <option>Makassar</option>
+    <option>Semarang</option>
+    <option>Malang</option>
+    <option>Denpasar</option>
+    <option>Ubud</option>
+    <option>Canggu</option>
+    <option>Sanur</option>
+    <option>Nusa Dua</option>
+    <option>Bangkok</option>
+    <option>Phuket</option>
+    <option>Chiang Mai</option>
+    <option>Pattaya</option>
+    <option>Krabi</option>
+    <option>Hua Hin</option>
+    <option>Koh Samui</option>
+    <option>Koh Phi Phi</option>
+    <option>Ayutthaya</option>
+    <option>Chiang Rai</option>
+    <option>Surat Thani</option>
+    <option>Trang</option>
+    <option>Lampang</option>
+    <option>Nan</option>
+    <option>Udon Thani</option>
+    <option>Tokyo</option>
+    <option>Osaka</option>
+    <option>Kyoto</option>
+    <option>Nara</option>
+    <option>Hiroshima</option>
+    <option>Fukuoka</option>
+    <option>Nagoya</option>
+    <option>Sapporo</option>
+    <option>Hakone</option>
+    <option>Kamakura</option>
+    <option>Yokohama</option>
+    <option>Kobe</option>
+    <option>Kanazawa</option>
+    <option>Nikko</option>
+    <option>Sendai</option>
+    <option>Rome</option>
+    <option>Milan</option>
+    <option>Venice</option>
+    <option>Florence</option>
+    <option>Naples</option>
+    <option>Turin</option>
+    <option>Bologna</option>
+    <option>Verona</option>
+    <option>Pisa</option>
+    <option>Siena</option>
+    <option>Genoa</option>
+    <option>Palermo</option>
+    <option>Catania</option>
+    <option>Bari</option>
+    <option>Lecce</option>
+    <option>Paris</option>
+    <option>Nice</option>
+    <option>Marseille</option>
+    <option>Lyon</option>
+    <option>Toulouse</option>
+    <option>Bordeaux</option>
+    <option>Lille</option>
+    <option>Strasbourg</option>
+    <option>Nantes</option>
+    <option>Montpellier</option>
+    <option>Avignon</option>
+    <option>Cannes</option>
+    <option>Antibes</option>
+    <option>Monaco</option>
+    <option>Aix-en-Provence</option>
+    <option>New York</option>
+    <option>Los Angeles</option>
+    <option>San Francisco</option>
+    <option>Miami</option>
+    <option>Las Vegas</option>
+    <option>Chicago</option>
+    <option>Boston</option>
+    <option>Seattle</option>
+    <option>San Diego</option>
+    <option>Austin</option>
+    <option>Dallas</option>
+    <option>Houston</option>
+    <option>Denver</option>
+    <option>Portland</option>
+    <option>San Jose</option>
+      </select>
+    </div>
+
+    <div class="field">
+      <label>Check In</label>
+      <input type="date">
+    </div>
+
+    <div class="field">
+      <label>Check Out</label>
+      <input type="date">
+    </div>
+
+    <div class="field">
+      <label>Person</label>
+      <select>
+        <option>1 Person</option>
+        <option>2 Persons</option>
+        <option>3 Persons</option>
+        <option>4+ Persons</option>
+      </select>
+    </div>
+
+    <button class="booking-bar-btn">Search</button>
+
+  </div>
+</div>
+    <div class="section-2">
+        <div class="content-gallery">
+            <div class="content-gallery-title">
+                <h3>Top Places to visit</h3>
+                <p>The Best Place to Stay in Indonesia</p>
+            </div>
+            <div class="content-gallery-img">
+                <img src="img/img-box-01.png" alt="place1">
+                <img src="img/img-box-02.png" alt="place2">
+                <img src="img/img-box-03.png" alt="place3">
+                <img src="img/img-box-04.png" alt="place4">
+            </div>
+            <button class="section-2-btn">Show More</button>
+        </div>
+    </div>
+    
+    <div class="section-3">
+  <div class="event">
+    <div class="event-arrows">
+        
+        <button class="slide-arrow left">&#10094;</button>
+        <button class="slide-arrow right">&#10095;</button>
+    </div>
+
+    <div class="event-plan">
+      <div class="title">
+        <p class="event-subtitle">Upcoming Event</p>
+        <h3 class="event-title">Bali - Indonesia</h3>
+      </div>
+
+      <p class="event-description">
+        Waters make fish every without firmament saw had. Morning air subdue. Our, air very one. Whales grass is fish whales winged.
+      </p>
+
+      <p class="event-date">Date: 12-15 December 2022</p>
+      <p class="event-cost">Cost: Start from $1200.00</p>
+      <p class="event-organizer">Organizer: TravelBuddy</p>
+      <p class="event-rating">Rating: 4.5 / 5</p>
+
+      <button class="event-btn">Plan Details</button>
+    </div>
+
+    <img src="img/event_bg_1.png" alt="event image" class="event-bg">
+  </div>
+</div>
+
+</main>
 <footer>
 
   <div class="footer-block">
     <div class="logo-footer">
-      <img src="/img/Vector1.svg" alt="Travel Buddy Logo" >
+      <img src="img/Vector1.svg" alt="Travel Buddy Logo" >
       <span>Travel Buddy</span>
     </div>
     <div class="discover">
       <h3>DISCOVER DESTINATION</h3>
       <ul>
-        <li><a href="#">Bali</a></li>
-        <li><a href="#">Karimun Jawa</a></li>
-        <li><a href="#">Jepara</a></li>
-        <li><a href="#">Lombok</a></li>
-        <li><a href="#">Yogykara</a></li>
-        <li><a href="#">Flores</a></li>
+        <li><a href="/places.html#Bali">Bali</a></li>
+        <li><a href="/places.html#Karimun Jawa">Karimun Jawa</a></li>
+        <li><a href="/places.html#Jepara">Jepara</a></li>
+        <li><a href="/places.html#Lombok">Lombok</a></li>
+        <li><a href="/places.html#Yogykara">Yogykara</a></li>
+        <li><a href="/places.html#Flores">Flores</a></li>
       </ul>
     </div>
 
@@ -62,9 +265,9 @@
 
       <div class="social">
         <h3>Social Media</h3>
-        <a href="#"><img src="/img/Instagram.png" alt="Instagram" /></a>
-        <a href="#"><img src="/img/Facebook.png" alt="Facebook" /></a>
-        <a href="#"><img src="/img/Twitter Squared.png" alt="Twitter" /></a>
+        <a href="www.instagram.com"><img src="img/Instagram.png" alt="Instagram" /></a>
+        <a href="www.facebook.com"><img src="img/Facebook.png" alt="Facebook" /></a>
+        <a href="www.twitter.com"><img src="img/Twitter Squared.png" alt="Twitter" /></a>
       </div>
     </div>
 
